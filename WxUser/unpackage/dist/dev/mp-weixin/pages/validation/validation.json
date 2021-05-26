@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "one-input": "/components/myp-one/myp-one"
+  }
+}

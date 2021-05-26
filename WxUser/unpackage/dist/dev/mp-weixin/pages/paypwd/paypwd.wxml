@@ -1,0 +1,1 @@
+<view class="content"><passkeyborad vue-id="80ae6cc0-1" show="{{show}}" data-event-opts="{{[['^close',[['close']]]]}}" bind:close="__e" bind:__l="__l"></passkeyborad></view>

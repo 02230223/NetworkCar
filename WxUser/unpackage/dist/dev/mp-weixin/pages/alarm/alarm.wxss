@@ -1,0 +1,45 @@
+
+page{
+	background-color: #F1F1F1;
+}
+.toptext1{
+	text-align: center;
+	margin-top: 50rpx;
+}
+.toptext1 text{
+	font-size: 50rpx;
+	font-weight: bold;
+	color: red;
+}
+.toptext2{
+	text-align: center;
+	margin-top: 20rpx;
+}
+.toptext2 text{
+	font-size: 30rpx;
+	color: #333333;
+}
+.center{
+	width: 730rpx;
+	height: 200rpx;
+	background-color: #FFFFFF;	
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 150rpx;
+	text-align:center;
+	color: #555555;
+}
+.center-text1
+{
+	padding-top: 20rpx;
+}
+.center-text2{
+	margin-top: 20rpx;
+}
+.bottom{
+	width: 700rpx;
+	height: 100rpx;
+	margin: auto;
+	margin-top: 800rpx;
+}
+

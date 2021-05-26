@@ -1,0 +1,84 @@
+
+page{
+	background: #F1F1F1;
+}
+.view-text{
+	font-size: 1.0em;
+	margin-left: 4%;
+	color: #DD524D;
+}
+.view-head{
+	width: 100%;
+	height: 100rpx;
+	background-color: #FFFFFF;
+	line-height: 100rpx;
+	font-size: 0.6em;
+}
+.view-head image{
+	width: 50rpx;
+	height: 50rpx;
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 3%;
+	float: left;
+}
+.view-text-body1{
+	text-align: center;
+	font-size: 1.1em;
+	margin-top: 10%;
+	margin-bottom: 8%;
+}
+.view-text-body2{
+	text-align: center;
+	font-size: 0.9em;
+	margin-bottom: 10%;
+}
+.box{
+		position: relative;
+		width: 500rpx;
+		height: 500rpx;
+		border: 5px solid #C8C7CC;
+		border-radius: 50%;
+		margin: auto;
+		text-align: center;
+		line-height: 500rpx;
+		font-size: 1.2em;
+}
+.box .view-anim{
+		display: block;
+		width: 500rpx;
+		height: 500rpx;
+		position: absolute;
+		left: -10px;
+		top: -10px;
+		border-radius: 50%;
+		border: 10px solid transparent;
+		/*旋转*/
+		-webkit-animation:circleRoate 10s ;
+		        animation:circleRoate 10s ;
+		-webkit-animation-timing-function:linear;
+		        animation-timing-function:linear;
+		-webkit-animation-iteration-count: infinite;
+		        animation-iteration-count: infinite;
+}
+.box .view-anim ._span{
+		position: absolute;
+		left: 379rpx;
+		top: 24rpx;
+		width: 30rpx;
+		height: 30rpx;
+		border-radius: 50%;
+		background: #F0AD4E;
+}
+@-webkit-keyframes circleRoate{
+from{-webkit-transform: rotate(0deg) infinite;transform: rotate(0deg) infinite;}
+to{-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+@keyframes circleRoate{
+from{-webkit-transform: rotate(0deg) infinite;transform: rotate(0deg) infinite;}
+to{-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+}
+.btn-cancel{
+	margin-top: 50%;
+}
+

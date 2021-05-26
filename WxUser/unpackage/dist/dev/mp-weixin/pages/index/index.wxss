@@ -1,0 +1,37 @@
+
+.text{
+	font-size: 1.4em; 
+	text-align: center;
+	margin: 0.8em;
+}
+.hr-view{
+	width: 80%;
+	height: 0.03em;
+	margin: auto;
+	background-color: #007947;
+}
+.since{
+	text-align: center;
+	margin: 0.8em;
+}
+.final{
+	text-align: center;
+	margin: 0.8em;
+}
+.icon{
+	position: absolute;
+	width: 80rpx;
+	height: 80rpx;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	margin-left: 85%;
+	margin-top: 87%;
+}
+.icon-alarm{
+	margin-top: 105%;
+}
+.icon image{
+	width:70%;
+	margin: 16%;
+}
+

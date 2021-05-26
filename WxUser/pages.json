@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小简打车"
+			}
+		},
+		{
+			"path":"pages/alarm/alarm"
+		},
+		{
+			"path":"pages/order/order"
+		},
+		{
+			"path":"pages/login/login",
+			"style":{
+			"navigationStyle":"custom"  
+			}   
+		},
+		{
+			"path":"pages/validation/validation"
+		},
+		{
+			"path":"pages/underway/underway"
+		},
+		{
+			"path":"pages/user/user"
+		},
+		{
+			"path":"pages/paypwd/paypwd"
+		},
+		{
+			"path":"pages/pay/pay"
+		},
+		{
+			"path":"pages/cancel/cancel"
+		},
+		{
+			"path":"pages/wait/wait"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小简打车",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
