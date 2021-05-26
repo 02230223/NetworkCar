@@ -1,0 +1,11 @@
+
+page{
+	background-color: #333333;
+}
+.content {
+        height: 400rpx;
+}
+button{
+        margin-top: 30rpx;
+}
+

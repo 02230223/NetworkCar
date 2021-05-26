@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "validcode": "/components/p-validCode/validCode"
+  }
+}

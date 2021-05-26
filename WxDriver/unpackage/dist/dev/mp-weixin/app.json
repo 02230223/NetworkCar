@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main",
+    "pages/information/information",
+    "pages/login/forget",
+    "pages/login/register",
+    "pages/order/order",
+    "pages/work/work",
+    "pages/validation/validation",
+    "pages/demo/demo",
+    "pages/journalism/journalism",
+    "pages/particulars/particulars"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小简司机",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.3",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "usingComponents": {}
+}

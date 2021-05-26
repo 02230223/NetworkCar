@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "particulars-unicloud-db-default": "/pages/particulars/particulars-unicloud-db-default",
+    "unicloud-db": "/node-modules/@dcloudio/uni-cli-shared/components/unicloud-db",
+    "uni-list": "/uni_modules/uni-list/components/uni-list/uni-list",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "u-parse": "/components/u-parse/parse"
+  }
+}

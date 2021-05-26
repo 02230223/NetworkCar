@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/login/login"
+		},
+		{
+			"path":"pages/main/main"
+		},	
+	    
+		
+		{
+			"path":"pages/information/information"
+		},
+		{
+			"path":"pages/login/forget"
+		},
+		{
+			"path":"pages/login/register"
+		},
+		{
+			"path":"pages/order/order"
+		},
+		{
+			"path":"pages/work/work"
+		},
+		{
+			"path":"pages/validation/validation"
+		},	
+		{
+			"path":"pages/demo/demo"
+		}
+       
+        ,{
+            "path" : "pages/journalism/journalism",
+            "style" : {
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/particulars/particulars",
+            "style" : {
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "type": "share"
+                            }
+                        ],
+                        "type": "transparent"
+                    }
+                },
+                "h5": {
+                    "titleNView": {
+                        "buttons": [
+                        ],
+                        "type": "transparent"
+                    }
+                },
+                "navigationBarTitleText": "文章详情"
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小简司机",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

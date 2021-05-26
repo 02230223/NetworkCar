@@ -1,0 +1,122 @@
+{
+	"bsonType": "object",
+	"permission": {
+		"create": "auth.uid != null",
+		"delete": "doc.uid == auth.uid",
+		"read": true,
+		"update": "doc.uid == auth.uid"
+	},
+	"properties": {
+		"_id": {
+			"description": "存储文档 ID（用户 ID），系统自动生成"
+		},
+		"article_status": {
+			"bsonType": "int",
+			"description": "文章状态：0 草稿箱 1 已发布",
+			"maximum": 1,
+			"minimum": 0
+		},
+		"avatar": {
+			"bsonType": "string",
+			"description": "缩略图地址",
+			"label": "封面大图"
+		},
+		"category_id": {
+			"bsonType": "string",
+			"description": "分类 id，参考`uni-news-categories`表"
+		},
+		"comment_count": {
+			"bsonType": "int",
+			"description": "评论数量",
+			"permission": {
+				"write": false
+			}
+		},
+		"comment_status": {
+			"bsonType": "int",
+			"description": "评论状态：0 关闭  1 开放",
+			"maximum": 1,
+			"minimum": 0
+		},
+		"content": {
+			"bsonType": "string",
+			"description": "文章内容",
+			"label": "文章内容"
+		},
+		"excerpt": {
+			"bsonType": "string",
+			"description": "文章摘录",
+			"label": "摘要"
+		},
+		"is_essence": {
+			"bsonType": "bool",
+			"description": "阅读加精",
+			"permission": {
+				"write": false
+			}
+		},
+		"is_sticky": {
+			"bsonType": "bool",
+			"description": "是否置顶",
+			"permission": {
+				"write": false
+			}
+		},
+		"last_comment_user_id": {
+			"bsonType": "string",
+			"description": "最后回复用户 id，参考`uni-id-users` 表"
+		},
+		"last_modify_date": {
+			"bsonType": "timestamp",
+			"description": "最后修改时间"
+		},
+		"last_modify_ip": {
+			"bsonType": "string",
+			"description": "最后修改时 IP 地址"
+		},
+		"like_count": {
+			"bsonType": "int",
+			"description": "喜欢数、点赞数",
+			"permission": {
+				"write": false
+			}
+		},
+		"mode": {
+			"bsonType": "number",
+			"description": "排版显示模式"
+		},
+		"publish_date": {
+			"bsonType": "timestamp",
+			"defaultValue": {
+				"$env": "now"
+			},
+			"description": "发表时间"
+		},
+		"publish_ip": {
+			"bsonType": "string",
+			"description": "发表时 IP 地址",
+			"forceDefaultValue": {
+				"$env": "clientIP"
+			}
+		},
+		"title": {
+			"bsonType": "string",
+			"description": "标题",
+			"label": "标题"
+		},
+		"user_id": {
+			"bsonType": "string",
+			"description": "文章作者ID， 参考`uni-id-users` 表"
+		},
+		"view_count": {
+			"bsonType": "int",
+			"description": "阅读数量",
+			"permission": {
+				"write": false
+			}
+		}
+	},
+	"required": ["user_id", "title", "content", "article_status", "view_count", "like_count", "is_sticky", "is_essence",
+		"comment_status", "comment_count", "mode"
+	]
+}
